@@ -20,12 +20,11 @@
   --color-dairy: #fcfcfc;
 }
 
-.body {
+body {
   font-family: var(--primary-font);
   font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--color-slate);
-  background-color: var(--color-slate);
 }
 
 /* HEADER */
