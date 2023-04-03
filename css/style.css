@@ -3,6 +3,7 @@
 
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+
   /* Colors */
 
   --color-iris: #4d5ae5;
@@ -183,6 +184,7 @@
 }
 
 /* reset */
+
 .list {
   list-style: none;
 }
