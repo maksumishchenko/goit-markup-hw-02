@@ -69,8 +69,7 @@ body {
 }
 
 .header-tel,
-.header-mail,
-.header-link {
+.header-mail {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-slate);
@@ -148,6 +147,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
   text-transform: capitalize;
