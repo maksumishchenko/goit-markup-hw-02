@@ -14,10 +14,10 @@
   --color-light-slate: #8e8f99;
   --color-cornflower: #e7e9fc;
   --color-cloud: #f4f4fd;
-  --color-navy-blue-modal: #2e2f42;
-  --color-grey: #2e2f42;
   --color-white: #ffffff;
   --color-dairy: #fcfcfc;
+  /* --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42; */
 }
 
 body {
@@ -44,7 +44,7 @@ body {
   color: #4d5ae5;
 }
 .logo {
-  color: var(--color-navy-blue-moda);
+  color: var(--color-navy-blue);
 }
 
 .header-list {
