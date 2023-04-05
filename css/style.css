@@ -68,15 +68,12 @@ body {
   font-style: normal;
 }
 
-.header-tel,
 .header-mail {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-slate);
 }
 
-.header-tel:hover,
-.header-tel:focus,
 .header-mail:hover,
 .header-mail:focus {
   color: var(--color-ocean);
