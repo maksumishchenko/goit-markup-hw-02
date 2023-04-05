@@ -44,7 +44,7 @@ body {
   color: #4d5ae5;
 }
 .logo {
-  color: #2e2f42;
+  color: var(--color-navy-blue-moda);
 }
 
 .header-list {
@@ -69,6 +69,7 @@ body {
 }
 
 .header-tel,
+.header-mail,
 .header-link {
   font-size: 16px;
   line-height: 1.5;
@@ -131,9 +132,9 @@ body {
 
 .features-name {
   font-weight: 500;
-  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 
