@@ -25,6 +25,7 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   color: var(--color-slate);
+  background-color: #ffffff;
 }
 
 /* HEADER */
@@ -73,6 +74,7 @@ body {
   color: var(--color-slate);
 }
 
+.header-tel,
 .header-mail {
   color: #434455;
 }
@@ -82,9 +84,6 @@ body {
   color: var(--color-ocean);
 }
 
-.header-tel {
-  color: #434455;
-}
 /* MAIN */
 
 .main-section {
@@ -97,6 +96,10 @@ body {
   line-height: 1.07;
   text-align: center;
   color: var(--color-white);
+}
+
+.main-text {
+  letter-spacing: 0.02em;
 }
 
 .main-btn {
@@ -184,15 +187,15 @@ body {
   color: var(--color-cloud);
 }
 
-/* PORTFOLIO */
-
 .secondary-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--color-iris);
   background-color: var(--color-cornflower);
 }
