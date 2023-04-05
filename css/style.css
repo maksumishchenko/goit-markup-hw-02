@@ -53,10 +53,18 @@ body {
   color: var(--color-navy-blue);
 }
 
+.header-iteam {
+  color: #2e2f42;
+}
+
 .header-iteam:hover,
 .header-iteam:visited,
 .header-iteam:focus {
   color: var(--color-ocean);
+}
+
+.address {
+  font-style: normal;
 }
 
 .header-link {
@@ -65,11 +73,18 @@ body {
   color: var(--color-slate);
 }
 
+.header-mail {
+  color: #434455;
+}
+
 .header-mail:hover,
 .header-mail:focus {
   color: var(--color-ocean);
 }
 
+.header-tel {
+  color: #434455;
+}
 /* MAIN */
 
 .main-section {
