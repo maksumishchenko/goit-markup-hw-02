@@ -68,15 +68,11 @@ body {
   font-style: normal;
 }
 
+.header-tel,
 .header-link {
   font-size: 16px;
   line-height: 1.5;
   color: var(--color-slate);
-}
-
-.header-tel,
-.header-mail {
-  color: #434455;
 }
 
 .header-mail:hover,
@@ -93,6 +89,7 @@ body {
 .main-title {
   font-weight: 700;
   font-size: 56px;
+  letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
   color: var(--color-white);
@@ -103,10 +100,12 @@ body {
 }
 
 .main-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
+  cursor: pointer;
   letter-spacing: 0.04em;
   color: var(--color-white);
   background: var(--color-iris);
@@ -124,6 +123,10 @@ body {
   background-color: #e5e5e5;
 }
 
+.features-title {
+  letter-spacing: 0.02em;
+}
+
 .features-name {
   font-weight: 500;
   font-size: 20px;
@@ -139,17 +142,24 @@ body {
 
 .name-section {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--color-slate);
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-section {
   background-color: var(--color-cloud);
 }
 
+.team-iteam {
+  background-color: #ffffff;
+}
+
 .worker-name {
   font-weight: 500;
+  letter-spacing: 0.02em;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -178,7 +188,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-cloud);
+  color: #4d5ae5;
+}
+
+.second-logo {
+  color: #f4f4fd;
 }
 
 .footer-text {
