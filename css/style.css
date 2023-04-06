@@ -80,6 +80,10 @@ body {
 
 /* MAIN */
 
+.main-section {
+  background-color: var(--color-navy-blue);
+}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -143,6 +147,10 @@ body {
 
 .team-iteam {
   background-color: #ffffff;
+}
+
+.team-section {
+  background-color: var(--color-cloud);
 }
 
 .worker-name {
