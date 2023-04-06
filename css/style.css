@@ -55,11 +55,10 @@ body {
 }
 
 .header-iteam {
-  color: #2e2f42;
+  color: var(--color-navy-blue);
 }
 
 .header-iteam:hover,
-.header-iteam:visited,
 .header-iteam:focus {
   color: var(--color-ocean);
 }
