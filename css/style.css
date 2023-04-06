@@ -81,10 +81,6 @@ body {
 
 /* MAIN */
 
-.main-section {
-  background-color: var(--color-navy-blue);
-}
-
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -117,11 +113,6 @@ body {
   background-color: var(--color-ocean);
 }
 
-.features-section,
-.main-portfilio {
-  background-color: #e5e5e5;
-}
-
 .features-title {
   letter-spacing: 0.02em;
 }
@@ -149,10 +140,6 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.team-section {
-  background-color: var(--color-cloud);
 }
 
 .team-iteam {
